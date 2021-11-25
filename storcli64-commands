@@ -1,0 +1,5 @@
+storcli64 /c0 show all
+
+storcli64 /c0 /vall show   
+
+storcli64  /c0 /eall /sall show 
