@@ -17,3 +17,6 @@ storcli64 /cx download file=mrxxxxfw.rom
 storcli /cx[/ex]/sx stop locate
 
 line
+
+# To view the adapter settings
+storcli64 /c0 show personality
