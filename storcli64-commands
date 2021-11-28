@@ -1,7 +1,10 @@
+# comment
 storcli64 /c0 show all
 
+# comment
 storcli64 /c0 /vall show   
 
+# comment
 storcli64  /c0 /eall /sall show 
 
 # To check the firmware level of the MegaRAID adapter
