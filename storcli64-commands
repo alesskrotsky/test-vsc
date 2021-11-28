@@ -3,3 +3,9 @@ storcli64 /c0 show all
 storcli64 /c0 /vall show   
 
 storcli64  /c0 /eall /sall show 
+
+# To check the firmware level of the MegaRAID adapter
+storcli64 /c0 show all|egrep  "Bios Version|Firmware Package|Firmware Version"
+
+# To update the firmware level of the MegaRAID adapter
+storcli64 /cx download file=mrxxxxfw.rom
