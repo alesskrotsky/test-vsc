@@ -20,3 +20,6 @@ line
 
 # To prepare a drive for removal
 storcli /cx[/ex]/sx spindown
+
+# To view the adapter settings
+storcli64 /c0 show personality
