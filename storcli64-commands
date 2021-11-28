@@ -17,3 +17,6 @@ storcli64 /cx download file=mrxxxxfw.rom
 storcli /cx[/ex]/sx stop locate
 
 line
+
+# To prepare a drive for removal
+storcli /cx[/ex]/sx spindown
